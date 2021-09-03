@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.2.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -18,7 +21,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=4000 craco start",
     "build": "INLINE_RUNTIME_CHUNK=false craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -42,6 +45,8 @@
     ]
   },
   "devDependencies": {
-    "@types/chrome": "0.0.154"
+    "@types/chrome": "0.0.154",
+    "@types/react-select": "^4.0.17",
+    "autoprefixer": "^9.8.6"
   }
 }

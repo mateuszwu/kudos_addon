@@ -1,6 +1,6 @@
 {
-  "name": "Kudos Addon",
-  "description": "TODO: add later",
+  "name": "Kudos Sender",
+  "description": "A simple tool to speed up kudos distribution",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
@@ -8,15 +8,14 @@
     "default_title": "Kudos"
   },
   "icons": {
-    "16": "logo192.png",
-    "48": "logo192.png",
-    "128": "logo192.png"
+    "16": "favicon.ico",
+    "48": "favicon.ico"
   },
   "permissions": [
     "activeTab"
   ],
   "content_scripts": [{
-    "matches": ["https://d.selleo.com/mm/kudos"],
+    "matches": ["https://d.selleo.com/*"],
     "js": ["./static/js/content.js"]
   }]
 }
