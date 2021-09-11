@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# Kudos Addon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The goal of this project is to help to distribute kudos.
+User is able to create the list of kudo receivers which can be used each week.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+### First option
 
-### `npm start`
+- clone the project
+- run `npm install`
+- run `npm run build`
+- open a new tab in Chrome/Brave browser and visit `chrome://extensions`
+- make sure that `Developer mode` is enabled
+- click `Load unpacked` 
+- select folder `build` folder
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Second option
+- download [build](https://github.com/mateuszwu/kudos_addon/blob/build_v_0_1_0/build.zip)
+- unpack `build.zip` file
+- open a new tab in Chrome/Brave browser and visit `chrome://extensions`
+- make sure that `Developer mode` is enabled
+- click `Load unpacked` 
+- select folder `build` folder
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+If everything resolves with success you should see the Kudos Sender on your extensions list.
+Don't forget to pin your new addon.
+![image](https://user-images.githubusercontent.com/18404037/132961154-36ded6f7-1b9a-4bac-8897-6259787e75b5.png)
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Kudos Addon works the same way as MM system.
+- pick up someone you want to reward
+- choose how many points you want to give
+- select type
+- write some message
+- click `Add`
 
-### `npm run build`
+When the list is completed click the `Send Kudos` button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/18404037/132961830-b5c95f9c-0d30-4b6d-b20e-cac11cfe34e4.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## VERY IMPORTANT INFO
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The Kudos Sender addon works with 100% only on the Merit Money [page](https://d.selleo.com/mm/kudos).
+Receivers info are scraped from that page, along with the valid auth token.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
