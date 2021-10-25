@@ -42,7 +42,7 @@ chrome.runtime.onMessage.addListener((
 });
 
 const sendKudo = (kudo: Kudo): Promise<Response> | Promise<void> => {
-  const authToken = JSON.parse(localStorage.getItem('ember_simple_auth-session') || '{}').authenticated.idToken
+  const authToken = JSON.parse(localStorage.getItem('ember_simple_auth-session') || '{}').authenticated.accessToken
   if (authToken !== undefined) {
     return fetch(
       'https://dm3.selleo.com/api/v2/merit_money/kudos',
