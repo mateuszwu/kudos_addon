@@ -16,7 +16,7 @@ User is able to create the list of kudo receivers which can be used each week.
 - select folder `build` folder
 
 ### Second option
-- download [build](https://github.com/mateuszwu/kudos_addon/blob/build_v_0_1_0/build.zip)
+- download [build](https://github.com/mateuszwu/kudos_addon/blob/build_v_1_1/build_v_1_1.zip)
 - unpack `build.zip` file
 - open a new tab in Chrome/Brave browser and visit `chrome://extensions`
 - make sure that `Developer mode` is enabled
