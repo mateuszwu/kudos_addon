@@ -15,7 +15,7 @@
     "activeTab"
   ],
   "content_scripts": [{
-    "matches": ["https://d.selleo.com/*"],
+    "matches": ["https://d.selleo.com/*", "https://office.selleo.app/*"],
     "js": ["./static/js/content.js"]
   }]
 }
